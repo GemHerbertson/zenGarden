@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+/* general formatting  */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #325050;
+    background: #fff;
+    font-family: 'IBM Plex Mono', sans-serif; 
+    font-size: 70%;
+}
+
+h3 {
+    padding-left: 5em;
+    font-family: "Roboto", sans-serif;
+    color: rgb(48, 51, 48);
+    font-weight: bolder;
+}
+
+p {
+    padding-left: 6em;
+    padding-right: 6em;
+    text-align: justify;
+}
+
+/* header */
+
+header {
+    background-color: #2d6063;
+    background-image: url('./huntington.png');
+    height: 260px;
+}
+
+/* header 1 */
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    font-size: 3.2em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 2px black;
+    color: #fff;
+}
+
+/* header 2 */
+
+h2 {
+    font-family: 'Satisfy', sans-serif; 
+    color: #fff;
+    text-align: center;
+    background-image: url('./zen.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 35em;
+    opacity: 0.6;
+}
+
+/* anchors */
+
+a {
+    text-decoration: none;
+    color: rgb(24, 46, 31);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* participation/benefits */
+
+.participation, .benefits {
+    display: inline-block;
+    background-image: url('./bamboo.png');
+    background-color: #6a9b80;
+}
+
+.participation > p, .benefits > p {
+    color: #fff;
+}
+
+/* page bottom 1 */
+
+p[role="contentinfo"] {
+    background-color: #6a9b80;
+    color: rgba(123, 121, 124, 0.719);
+    height: 2em;
+    text-align: center;
+    padding: 3em;
+}
+
+p[role="contentinfo"] > a {
+    font-family: 'Satisfy', sans-serif;
+    font-size: 2.2em;
+    color: #fff;
+}
+
+/* footer */
+
+footer {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(45, 66, 59);
+    padding: 1em;
+    text-align: center;
+    margin-top: -1em;
+}
+
+footer > a {
+    color: #fff;
+    font-size: 2em;
+}
+
+footer > a:hover {
+    text-decoration: none;
+    color: rgb(167, 170, 169);
+}
+
+/* page bottom 2 */
+
+aside {
+    background-color: rgb(214, 236, 221);
+    margin-top: -1.1em;
+}
+
+/* design section */
+
+li {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+nav[role=navigation] > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.design-selection nav[role=navigation] > ul > li {
+    width: 50%;
+    padding-top: 2.2em;
+    padding-bottom: 2.2em;
+    text-align: center;
+    border-bottom: 0.1em lightgrey solid;
+}
+
+.design-selection > h3 {
+    visibility: hidden;
+}
+
+.design-name {
+    color: black;
+}
+
+.designer-name {
+    color: grey;
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 0.9em;
+}
+
+/* design archives */
+
+.design-archives nav[role=navigation] > ul > li {
+    width: 50%;
+    padding-bottom: 2.2em;
+    text-align: center;
+}
+.design-archives > h3 {
+    visibility: hidden;
+}
+
+.design-archives nav ul li a {
+    color: grey;
+}
+
+/* very bottom */
+.zen-resources{
+    background-image: url('./bamboo.png');
+    background-color: #6a9b80;
+    padding-top: 0;
+    height: 19vh;
+}
+
+.zen-resources > h3 {
+    visibility: hidden;
+}
+
+.zen-resources > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.zen-resources > ul > li {
+    width: 50%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: rgb(24, 46, 31);
+}
+
+.zen-translations {
+    margin-right: auto;
+}
